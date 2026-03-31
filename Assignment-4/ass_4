@@ -1,0 +1,32 @@
+Q.1 Write messaging beans which accepts operation_code tablename,
+cloumnnames and values in a string . The pean parses the string and
+perform the operation on table. The message format is following
+
+<operation>:,<table_name>:<columnname1,
+columnname2...><value1,value2..)<where clause>
+
+eg.
+“I:emp: ename,sal,phone:’prakash’,3400,234567’:’’
+
+or
+“U:emp: sal:3400:where empid=5”
+
+or
+“D:emp: :where empid=5”
+
+I,U,D stands for Insert update and delete respectively.
+
+
+
+
+
+
+
+
+Q.2.
+Write three messaging beans which subscribe to a TOPIC based message
+queue. Create a Java Servlet client which sends a greeting message to
+thr TOPIC destination in JMS. All the three MDBs which subsribe the
+queue should recieve the message asynchronously at the same time and
+send the message to server log.
+

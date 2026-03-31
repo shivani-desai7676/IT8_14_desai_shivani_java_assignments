@@ -1,0 +1,64 @@
+Q.1 Fashion Store wishes to go online. The Items to be sold are arrange
+in various categories with discounts or coupen code.
+
+Database:
+   category master (category_id,
+   category_name, parent_category_id)
+   
+   product_master (product_id,
+   product_name, price, unit, discount, image, category_id, stock)
+   
+   user_master(user_id,
+   username, login_id, password, password_question, password_answer,
+   email, phone, address, city. State, country, pin);
+   
+   order_master( order_id,
+   order_datetime, session_id, payment_mode, tax, total_amount,
+   order_status)
+   
+   order_details(
+   order_detail_id, order_id, product_id, product_price, discount)
+   
+
+   Provide
+   an attractive home page . The home page must have facility to login,
+   register new user and remember password and recover forgot password
+   facility.
+
+   Present a registration form
+   to the new users with facility of kaptcha code in it. Also give the
+   facility to edit the profile.
+
+   Provide a Authentication
+   Filter to protect other pages from direct access
+
+   Present
+   data entry links and forms to administrators to enter data for new
+   items with facility of add delete , update and find. ( Give the
+   interface for Product Master and category Master)
+
+   The successfully logged users
+   should be presented with A shop. Allow customers to select items and
+   drop them into shopping cart. Give them facility to add, edit and
+   delete items from shopping cart. Also give them facility to prepare
+   bill. Store the bill into a database with status of payment.
+
+   Keep a track of every body
+   who visits the shop and records all session ID of the users in the
+   database using Listeners
+   
+   Give a report of the
+   
+	a) stock of all the items
+
+
+	b) Clients who have have  visited the site more tahn 5 times Send
+           an auto email to all the clients on their birthday.
+
+
+Submit
+, Code and GUI in submission
+
+
+
+

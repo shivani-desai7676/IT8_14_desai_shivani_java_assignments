@@ -1,0 +1,5 @@
+ejb/VisitTracker.class
+com/mycompany/q2/JakartaRestConfiguration.class
+com/mycompany/q2/resources/JakartaEE10Resource.class
+ejb/VisitTrackerLocal.class
+servlet/VisitServlet.class

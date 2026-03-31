@@ -1,0 +1,5 @@
+ejb/InventoryLocal.class
+ejb/Inventory.class
+com/mycompany/q3/resources/JakartaEE10Resource.class
+servlet/InventoryServlet.class
+com/mycompany/q3/JakartaRestConfiguration.class

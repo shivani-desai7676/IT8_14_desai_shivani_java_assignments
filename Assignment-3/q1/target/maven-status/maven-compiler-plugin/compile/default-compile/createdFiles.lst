@@ -1,0 +1,5 @@
+servlet/Currency.class
+com/mycompany/q1/resources/JakartaEE10Resource.class
+com/mycompany/q1/JakartaRestConfiguration.class
+ejb/CurrencyConverter.class
+ejb/CurrencyConverterLocal.class

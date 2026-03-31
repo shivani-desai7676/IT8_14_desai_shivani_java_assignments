@@ -1,0 +1,22 @@
+Q. 1
+Write an Application
+for Currency Converter which can convert the currency of any country to the currency of any country. Use EJB to encapsulate the conversion logic. Keep
+the currency conversion factors into database. Create a suitable
+database
+
+Q.2.
+Create a Stateful bean that records as how many times a client visits a particular web page. The bean stores the record of client
+IP Address and no of visits to the page in a table in the database. (use,
+jdbc, servlets, ejb)
+
+Q.3
+: Create a table ProductMaster and Category Master with Product table
+having product id, product name, price, stock, category id
+columns. Category Master has a category id, category name. Perform CRUD
+operations on category and product. Prepare an appropriate user
+interface, write the logic in EJB. Use JDBC for database operations.
+
+Q.4
+Create a Shopping cart for the Book Shop and allow customers to purchase
+multiple books. Maintain the shopping cart and finally produce the
+bill. Use an appropriate database and data structure.
